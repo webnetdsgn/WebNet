@@ -36,7 +36,7 @@
     var href = a.getAttribute('href') || '';
     if (href.indexOf('t.me') > -1) {
       ym(COUNTER_ID, 'reachGoal', 'telegram');
-    } else if (href.indexOf('works/') > -1) {
+    } else if (href.indexOf('works/') > -1 || href.indexOf('chatgpt.site') > -1) {
       ym(COUNTER_ID, 'reachGoal', 'open_work');
     }
   });
